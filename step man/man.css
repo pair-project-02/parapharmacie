@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(https://t3.ftcdn.net/jpg/00/87/64/38/240_F_87643831_7IqYuhYVpAVvSrfOJFcojpejYIaXbtVZ.jpg);
+    
 }
 
 header {
@@ -16,6 +18,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+    
 }
 
 .product {
@@ -23,11 +26,13 @@ header {
     padding: 10px;
     margin: 10px;
     text-align: center;
+    background: transparent;
 }
 
 .addToCart {
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
+    border-radius: 100px;
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
@@ -35,13 +40,21 @@ header {
     font-size: 16px;
     margin-top: 10px;
     cursor: pointer;
+    /* background-image: url(/photos/chariot.png); */
 }
 
 #cart {
-    float: right;
+    /* float: right; */
+    float: inline-start;
     margin: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
+    /* padding: 20px; */
+    /* border: 1px solid red; */
+    padding-left:100px ;
+    display: none;
+    margin-left: 100px;
+    background-color: #333;
+    /* background-image: url(/photos/Capture\ d\'écran\ 2024-01-13\ 010841.png); */
+    
 }
 
 #cartItems {
@@ -55,11 +68,70 @@ header {
 
 #cartTotal {
     font-weight: bold;
+    font-size: 50px;
+    border-radius: 100px;
+    background-color: black;
 }
 #toggleSwitch{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBxlAvZC4DDMPPoJmmEDgk6h0JITlngc3Wig&usqp=CAU");
 }
 img{
-    height: 150px;
-    width: 120px;
+    height: 170px;
+    width: 150px;
+}
+#price{
+    border-radius:100px ;
+    border-color: black;
+    color: white;
+    background-color: black;
+}
+#cartPng{
+    height: 50px;
+    width: 50px;
+    float: right;
+    /* margin-top: 0px; */
+    cursor: pointer;
+}
+#reset{
+    border-radius: 100px;
+    background-color: red;
+    cursor: pointer;
+}
+li{
+    color: white;
+    border-radius: 100px;
+    /* background-color: black; */
+    width: 250px;
+    /* justify-items: center; */
+    /* padding-left: 0px; */
+    /* padding-right: px; */
+    margin-right: 100px;
+}
+#back{
+    border-radius: 100px;
+    background-color: red;
+    cursor: pointer;
+}
+#searchInput{
+    border-radius: 100px;
+    background-color: rgb(146, 237, 9);
+    border-color: rgb(146, 237, 9);
+}
+footer{
+    background-color: #333;
+    color: white;
+    /* padding: 1px; */
+    text-align: center;
+    height: 110px;
+    
+}
+#contact{
+    float: left;
+    /* height: 10px;
+    width: 10px; */
+}
+#cont{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
 }

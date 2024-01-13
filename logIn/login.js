@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
   
       if (userData && userData.password === passwordInput) {
         alert("Successfully connected!");
-        // Redirect to the homePage but i don't have it for now
-        window.location.href = "./welcome.html"
+        // Redirect to the homePage 'jessem'
+        window.location.href = "http://127.0.0.1:5501/step%20man/man.html"
       } else { 
         // if user put inccorect information that don't match the input of the signUp that he created it will be returned this
         alert("Untrouvable account. Please sign in.")

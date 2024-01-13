@@ -38,7 +38,7 @@ signupBtn.addEventListener("click", function(e) {
         addData(inputEmail.value, inputPassword.value);
         alert("you're seccasfully create your account move to login and visit ")
         setTimeout(function() {
-            window.location.href = "./login.html";
+            window.location.href = "/logIn/login.html";
         }, 1000);
     }
 }) 
