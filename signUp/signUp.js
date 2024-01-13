@@ -38,11 +38,7 @@ signupBtn.addEventListener("click", function(e) {
         addData(inputEmail.value, inputPassword.value);
         alert("you're seccasfully create your account move to login and visit ")
         setTimeout(function() {
-<<<<<<< HEAD:signUp/signUp.js
             window.location.href = "/logIn/login.html";
-=======
-            window.location.href = "http://127.0.0.1:5500/login/login.html";
->>>>>>> 84b9e6ef7d6422b6f0081b65f44fca5c9a221da4:signUp,logIn/signUp/signUp.js
         }, 1000);
     }
 }) 

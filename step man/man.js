@@ -119,13 +119,14 @@ $(document).ready(function() {
     });
 });
 document.addEventListener("DOMContentLoaded", function () {
-   
+    // Wait for the DOM to be fully loaded
 
+    // Get the reset button element by its ID
     var resetButton = document.getElementById("reset");
 
-
+    // Add a click event listener to the reset button
     resetButton.addEventListener("click", function () {
-    
+        // Redirect to the main page when the button is clicked
         window.location.href = "./man.html";
     });
 });
